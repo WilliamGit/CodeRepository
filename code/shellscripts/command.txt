@@ -1,0 +1,8 @@
+# copy directory to another directory
+cp -avr scripts/ shellscripts/
+#rename directoryname
+mv scripts/ shellscripts
+# > means if command.txt is not existing, the command.txt file will be created
+# and input the content of quotes, If the command.txt is existing, it will
+# empty the command.txt file and input the content of the quotes.
+echo 'cp -avr scripts/ shellscripts/' > shellscripts/command.txt

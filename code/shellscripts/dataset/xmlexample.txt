@@ -1,0 +1,47 @@
+     -->
+     <!-- -->
+      <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://10.10.12.150:3507/base?rewriteBatchedStatements=true&amp;cachePrepStmts=true&amp;useServerPrepStmts=true&amp;useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+
+      <property name="username" value="base"/>
+      <property name="password" value="base"/>
+      <property name="initialSize" value="0"/>
+      <property name="maxActive" value="2"/>
+      <property name="maxIdle" value="2"/>
+      <property name="showSql" value="true"/>
+    </pool>
+    <pool name="upc" type="SELF">
+      <!----><property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://10.10.12.150:3507/upc?rewriteBatchedStatements=true&amp;cachePrepStmts=true&amp;useServerPrepStmts=true&amp;useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+      <property name="username" value="upc"/>
+      <property name="password" value="upc"/>
+      <property name="initialSize" value="0"/>
+      <property name="maxActive" value="2"/>
+      <property name="maxIdle" value="2"/>
+    </pool>
+    <pool name="sec" type="SELF">
+      <!----><property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://10.10.12.150:3507/sec?rewriteBatchedStatements=true&amp;cachePrepStmts=true&amp;useServerPrepStmts=true&amp;useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+      <property name="username" value="sec"/>
+      <property name="password" value="sec"/>
+      <property name="initialSize" value="0"/>
+      <property name="maxActive" value="2"/>
+      <property name="maxIdle" value="2"/>
+    </pool>
+    <pool name="meta" type="SELF">
+      <!----><property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://10.10.12.150:3507/base?rewriteBatchedStatements=true&amp;cachePrepStmts=true&amp;useServerPrepStmts=true&amp;useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+      <property name="username" value="base"/>
+      <property name="password" value="base"/>
+      <property name="initialSize" value="0"/>
+      <property name="maxActive" value="2"/>
+      <property name="maxIdle" value="2"/>
+    </pool>
+    <pool name="comframe" type="SELF">
+      <!----><property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://10.10.12.150:3507/comframe?rewriteBatchedStatements=true&amp;cachePrepStmts=true&amp;useServerPrepStmts=true&amp;useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+      <property name="username" value="comframe"/>
+      <property name="password" value="comframe"/>
+      <property name="initialSize" value="0"/>
+      <property name="maxActive" value="2"/>
+      <property name="maxIdle" value="2"/>
