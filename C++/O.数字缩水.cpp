@@ -5,7 +5,7 @@ using namespace std;
  int cmp (int x,int y){
         return x >y;
     }
-int f(string s){
+int f(string s){   
     int n=s.length();  //get the string length
     int num[n]={0};
     for (int i=0;i<n;i++){
@@ -23,8 +23,8 @@ int f(string s){
 }   
     int main(){
     // Write C++ code here
-    string s;
-    cin >> s;
-    int num=f(s);
+    string s;   
+    cin >> s; 
+    int num=f(s);   // We can try to change other "mod" method to divide the number,like number%10, number%100, number%1000
     cout << num;
     }
